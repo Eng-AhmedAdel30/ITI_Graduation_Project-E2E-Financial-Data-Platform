@@ -1,52 +1,70 @@
-# 02 · Data Engineering & Data Warehouse
+# Data Pipeline
 
-Automated ETL from the Azure SQL OLTP database into a **Microsoft Fabric Data Warehouse** (`FinTech_DW`) modeled as a galaxy (multi-fact star) schema.
+A scheduled **Microsoft Fabric Data Pipeline** that extracts data from the Azure SQL OLTP database and loads it into the Fabric Data Warehouse (`FinTech_DW`) using incremental loading.
 
-## Pipeline
-
-```
-Azure SQL (OLTP) ──► Copy job (incremental) ──► Fabric Warehouse ──► Master Orchestration (stored proc)
-```
-
-- **Scheduling:** Fabric pipeline with a scheduled copy job (72-hour interval in the current setup)
-- **Extract:** Delta changes pulled from Azure SQL OLTP
-- **Transform:** Business rules, data cleansing, surrogate key generation
-- **Load:** Incremental load into staging and final warehouse tables (schema `dw`)
-- **Orchestration:** `usp_Master_Load` runs all dimension and fact loads
-
-## Load Procedures
-
-**Dimensions:** `usp_Load_Dim_Account`, `_Card`, `_Customer`, `_Loan_Contract`, `_Location`, `_Merchant`, `_ML_Model`, `_Txn_Rule`
-**Facts:** `usp_Load_Fact_Card_Attempt`, `_Fraud_Assessment`, `_Loan`, `_Loan_Repayment`, `_Login_Attempt`, `_Transaction`
-**Master:** `usp_Master_Load`
-
-## Warehouse Model (Galaxy Schema)
-
-| Domain | Fact table | Description |
-|--------|-----------|-------------|
-| Banking & Payments | `Fact_Transaction` | Transaction amounts and volumes |
-| Banking & Payments | `Fact_Card_Attempt` | Card attempts and outcomes |
-| Lending | `Fact_Loan` | Loan applications and approvals |
-| Lending | `Fact_Loan_Repayment` | Repayment activity |
-| Security | `Fact_Login_Attempt` | User login activity |
-
-**Conformed dimensions:** `Dim_Customer`, `Dim_Account`, `Dim_Card`, `Dim_Bank`, `Dim_Merchant`, `Dim_Loan_Contract`, `Dim_Location`, `Dim_Date`, `Dim_Time`
-
-## Suggested Folder Contents
+## Flow
 
 ```
-02-data-engineering/
-├── warehouse-ddl/        # CREATE TABLE for dims and facts
-├── load-procedures/      # usp_Load_* and usp_Master_Load
-├── pipeline/             # Exported Fabric pipeline JSON
-└── diagrams/             # Galaxy schema diagram
+Azure SQL Database ──► Copy job (incremental) ──► FinTech_DW (staging) ──► Master Orchestration ──► Facts & Dims
 ```
+
+## 1. Incremental Copy Job
+
+A scheduled copy job reads changes from the Azure SQL database and writes them to the warehouse.
+
+![Fabric Copy Job](./1.pipeline.png)
+
+| Setting | Value |
+|---------|-------|
+| Source | Azure SQL Database (`Fin-Tech`) |
+| Destination | Fabric Warehouse `FinTech_DW` |
+| Mode | Incremental copy |
+| Schedule | Every 72 hours (current configuration) |
+
+## 2. Pipeline Orchestration
+
+The pipeline chains the copy job to a stored procedure that runs the whole transformation.
+
+![Fabric Pipeline](./2.pipeline.png)
+
+| Step | Activity type | Description |
+|------|---------------|-------------|
+| 1 | **Copy job** (`Get_data from Azure SQL…`) | Pulls delta changes from the OLTP database |
+| 2 | **Stored procedure** (`Master Orchestration`) | Runs `usp_Master_Load`, which loads all dimensions and facts. Runs only if step 1 succeeds. |
+
+## 3. ETL Logic
+
+| Stage | What happens |
+|-------|--------------|
+| **Extract** | Delta changes are pulled from Azure SQL OLTP |
+| **Transform** | Business rules, data cleansing, surrogate key generation |
+| **Load** | Incremental load into warehouse staging and final tables (schema `dw`) |
+
+## 4. Load Stored Procedures
+
+![Warehouse Load Procedures](./images/load-procedures.png)
+
+| Type | Procedures |
+|------|-----------|
+| Dimensions | `usp_Load_Dim_Account`, `usp_Load_Dim_Card`, `usp_Load_Dim_Customer`, `usp_Load_Dim_Loan_Contract`, `usp_Load_Dim_Location`, `usp_Load_Dim_Merchant`, `usp_Load_Dim_ML_Model`, `usp_Load_Dim_Txn_Rule` |
+| Facts | `usp_Load_Fact_Card_Attempt`, `usp_Load_Fact_Fraud_Assessment`, `usp_Load_Fact_Loan`, `usp_Load_Fact_Loan_Repayment`, `usp_Load_Fact_Login_Attempt`, `usp_Load_Fact_Transaction` |
+| Master | `usp_Master_Load` (calls the dimension loads first, then the facts) |
+
+> Dimensions should load before facts so that surrogate keys exist when facts are resolved.
 
 ## Setup
 
-1. Create a Fabric workspace and a Warehouse named `FinTech_DW`.
-2. Run the DDL, then create the load stored procedures.
-3. Create a Fabric Pipeline: **Copy job** (Azure SQL → Warehouse) followed by a **Stored procedure** activity calling `usp_Master_Load`.
-4. Set the schedule and run once to verify.
+1. Create a Fabric workspace and the `FinTech_DW` warehouse (see [Data Warehouse](../data-warehouse)).
+2. Create the load stored procedures in the `dw` schema.
+3. In Fabric, create a **Data Pipeline**:
+   - Add a **Copy job** activity (Azure SQL → `FinTech_DW`, incremental).
+   - Add a **Stored procedure** activity calling `dw.usp_Master_Load`, connected on success.
+4. Set the schedule (currently 72 hours) and run once manually.
+5. Check the run in **Monitor** and verify row counts in the warehouse.
 
-> Optional: Azure SQL also offers "Mirror database in Fabric (preview)" as an alternative ingestion path.
+## Monitoring & Troubleshooting
+
+- Use Fabric **Monitor** to see run history, duration, and failures.
+- If the copy succeeds but the loads fail, check the stored procedure output and any staging-table mismatches.
+- Re-running is safe when loads are incremental, but check for duplicate keys on the first full load.
+
