@@ -1,6 +1,6 @@
 # 01 · OLTP Operational Database
 
-The operational banking database, hosted on **Azure SQL Database**, that captures all customer, account, card, transaction, fraud, and loan activity.
+The operational banking database, hosted on **Azure SQL Database**, that captures all customer, account, card, transaction, fraud, and loan activity. It is the source system for the Fabric data pipeline, the Power Apps front-end, the ML feature views, and the SSRS operational reports.
 
 ## Overview
 
@@ -15,52 +15,99 @@ The operational banking database, hosted on **Azure SQL Database**, that capture
 | Views | 2 (feed the ML models) |
 | Triggers | Yes, for consistency and fraud checks |
 
-## Tables (20)
+---
 
-**Customers & access:** `Customer`, `User_Login`, `Login_Attempt`, `Financial_History`
-**Accounts & cards:** `Account`, `AccountOwner`, `Bank`, `Merchants`, `Card`, `Card_Attempt`
-**Transactions & fraud:** `Transactions_Header`, `Transaction_Entry`, `Transactions_Audit`, `Fraud_Assessment`, `Fraud_Alert`, `Transaction_Rules`
-**Lending:** `Loan_Application`, `Loan_Contract`, `Re_Payment_Schedule`, `Risk_Assessment`
+## 1. Entity-Relationship Design (22 Entities)
 
-## Stored Procedures (35)
+The conceptual model covers customers, accounts, cards, transactions, fraud detection, and the full loan lifecycle.
 
-Grouped by purpose (see the SQL files for the full list):
+![OLTP ER Diagram](./Screenshots/ERD.png)
+
+## 2. Database Diagram (20 Tables)
+
+The physical implementation in SQL Server, with primary/foreign keys.
+
+![Database Diagram](./Screenshots/Database_diagram.png)
+Database Implementation/Screenshots/Database  diagram.png
+### Tables by domain
+
+| Domain | Tables |
+|--------|--------|
+| Customers & access | `Customer`, `User_Login`, `Login_Attempt`, `Financial_History` |
+| Accounts & cards | `Account`, `AccountOwner`, `Bank`, `Merchants`, `Card`, `Card_Attempt` |
+| Transactions & fraud | `Transactions_Header`, `Transaction_Entry`, `Transactions_Audit`, `Fraud_Assessment`, `Fraud_Alert`, `Transaction_Rules` |
+| Lending | `Loan_Application`, `Loan_Contract`, `Re_Payment_Schedule`, `Risk_Assessment` |
+
+### Design notes
+
+- **Transaction model:** each transaction has a header (`Transactions_Header`), one or more entries (`Transaction_Entry`, credit/debit), and an audit record (`Transactions_Audit`: channel, IP address, device).
+- **Fraud model:** `Transaction_Rules` define scoring rules; `Fraud_Assessment` stores the score and risk level per transaction; `Fraud_Alert` records triggered rules.
+- **Loan model:** `Loan_Application` → `Risk_Assessment` (ML score) → `Loan_Contract` → `Re_Payment_Schedule` (installments).
+- **Security:** `User_Login` stores `Password_Hash` (never plain-text passwords); `Login_Attempt` tracks device and success for spike/fraud analysis.
+
+---
+
+## 3. Stored Procedures, Views, Triggers & Constraints
+Database Implementation/Screenshots/SPs_Views _Triggers.png
+![Stored Procedures ,Views and Triggers](./Screenshots/SPs_Views_Triggers.png)
+
+### Stored procedures (35)
 
 - **Customer & account:** `sp_CreateCustomerAccount`, `sp_GetCustomerProfile`, `sp_Customer360Profile`, `sp_GetAccountSummary`, `sp_UserLogin`
 - **Money movement:** `sp_Deposit`, `sp_Withdraw`, `sp_TransferMoney`, `sp_OnlinePurchase_card`, `sp_OnlinePurchaseByLogin`
 - **Cards:** `sp_BlockCard`, `sp_UnblockCard`, `sp_GetCardDetails`
 - **Fraud:** `sp_CalculateFraudScore`, `sp_RunFraudChecks`, `SP_Fraud_Detection_Monitoring`, `SP_Fraud_Investigation`, `SP_Fraud_Monitoring`, `sp_GetFraudAlerts`
 - **Loans & risk:** `sp_ApproveLoan`, `sp_RunRiskAssessment`, `SP_Loan_Risk_Assessment`, `SP_Credit_Decision_Analysis`, `SP_Loan_Collection`, `SP_Repayment_Performance`, `sp_GetLoanStatus`
-- **Reporting / KPIs:** `SP_Executive_KPI`, `SP_Executive_Overview`, `sp_GetDashboardKPIs`, `rpt_*` procedures (geo-cluster, failed-login spikes, loan approval)
+- **Reporting / KPIs:** `SP_Executive_KPI`, `SP_Executive_Overview`, `sp_GetDashboardKPIs`, `rpt_*` procedures (card-attempt geo-cluster, failed-login spike summary, risk assessment / loan approval)
 
-## Views (ML feature sources)
+### Views (ML feature sources)
 
-- `vw_FraudFeatures`
-- `vw_LoanRiskFeatures`
+| View | Used by |
+|------|---------|
+| `vw_FraudFeatures` | Fraud model features |
+| `vw_LoanRiskFeatures` | Loan risk model features |
 
-## Triggers & Constraints
+### Triggers
 
-- `trg_AfterInsert_LoanApplication`, `trg_AfterUpdate_LoanApplication_Approved` on `Loan_Application`
-- `trg_RunFraudChecks` on `Transactions_Header`
-- Primary/foreign keys and constraints to keep data consistent
+| Trigger | Table | Purpose |
+|---------|-------|---------|
+| `trg_AfterInsert_LoanApplication` | `Loan_Application` | Runs logic when a new application is created |
+| `trg_AfterUpdate_LoanApplication_Approved` | `Loan_Application` | Runs logic when an application is approved (e.g. contract creation) |
+| `trg_RunFraudChecks` | `Transactions_Header` | Runs fraud checks automatically on each new transaction |
 
-## Suggested Folder Contents
+Primary/foreign keys and constraints keep the data consistent across all 20 tables.
+
+---
+
+## 4. Azure Deployment
+![Azure SQL Database Overview](<./Screenshots/Database Deployment on Azure.png>)
+
+| Setting | Value |
+|---------|-------|
+| Resource group | `GP` |
+| Server | Azure SQL logical server (`*.database.windows.net`) |
+| Location | UAE North |
+| Pricing tier | Standard S0 (10 DTUs) |
+| Subscription | Azure for Students |
+| Fabric integration | "Mirror database in Fabric (preview)" available |
+
+> Do not publish the subscription ID, connection strings, or firewall rules in the repo or in screenshots. Blur them before uploading.
+
+---
+
+## Folder Structure
 
 ```
 01-oltp-database/
+├── README.md
+├── Screenshots/
+│   ├── ERD.png
+│   ├── Database diagram.png
+│   ├── SPs_Views_Triggers.png
+│   └── azure-sql-deployment.png
 ├── schema/          # CREATE TABLE scripts
 ├── procedures/      # Stored procedures
 ├── views/
 ├── triggers/
-├── seed-data/       # Sample/synthetic data (no real customer data)
-└── diagrams/        # ER diagram (22 entities) + database diagram (20 tables)
+└── seed-data/       # Synthetic sample data only
 ```
-
-## Setup
-
-1. Create an Azure SQL Database (or use a local SQL Server instance).
-2. Run scripts in this order: schema → constraints → views → procedures → triggers.
-3. Load seed data.
-4. Configure the server firewall to allow your client IP.
-
-> Do not commit connection strings or the Azure subscription ID.
