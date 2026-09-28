@@ -1,0 +1,693 @@
+﻿101,Kirlin and Sons,personal_care,33.986391,-81.200714
+102,Sporer-Keebler,personal_care,39.450498,-109.960431
+103,"Swaniawski, Nitzsche and Welch",health_fitness,40.495810,-74.196111
+104,Haley Group,misc_pos,28.812398,-80.883061
+105,Johnston-Casper,travel,44.959148,-85.884734
+106,Daugherty LLC,kids_pets,41.747157,-77.584197
+107,Romaguera Ltd,health_fitness,41.499458,-124.888729
+108,Reichel LLC,personal_care,44.495498,-97.728453
+109,"Goyette, Howell and Collier",shopping_pos,41.546067,-78.120238
+110,Kilback Group,food_dining,31.782919,-96.366185
+111,"Feil, Hilpert and Koss",food_dining,38.977546,-84.727994
+112,Gottlieb Group,kids_pets,42.687774,-108.670054
+113,Connelly-Carter,home,26.078460,-80.569932
+114,Bechtelar-Rippin,food_dining,40.711680,-73.668384
+115,Lubowitz-Walter,kids_pets,32.721131,-87.253846
+116,"Welch, Rath and Koepp",entertainment,29.831550,-80.926829
+117,Hickle Group,shopping_pos,24.306325,-81.065169
+118,"Lang, Towne and Schuppe",kids_pets,33.182349,-97.919284
+119,Morissette LLC,entertainment,30.449990,-89.930996
+120,Prosacco LLC,personal_care,40.508064,-79.615158
+121,Corwin-Romaguera,travel,33.195225,-84.119083
+122,Tillman LLC,travel,40.117116,-84.175021
+123,Veum-Koelpin,travel,45.474440,-89.539774
+124,"Watsica, Haag and Considine",shopping_pos,43.702833,-83.750248
+125,Leannon-Ward,food_dining,38.048242,-123.125680
+126,"Hintz, Bauch and Smith",health_fitness,42.390565,-71.932418
+127,Labadie LLC,personal_care,36.581541,-89.680517
+128,"Eichmann, Hayes and Treutel",travel,31.432355,-95.537859
+129,Leffler-Goldner,personal_care,40.951475,-74.065226
+130,Kautzer and Sons,personal_care,38.585316,-86.108185
+131,Ernser-Feest,home,40.196876,-74.407686
+132,"Zemlak, Tillman and Cremin",personal_care,42.322809,-94.363655
+133,Nienow PLC,entertainment,42.736666,-90.099710
+134,Lynch-Wisozk,home,39.289186,-77.113659
+135,Schiller Ltd,personal_care,33.949418,-117.610248
+136,Hoppe-Parisian,kids_pets,34.727266,-86.883794
+137,Brown-Greenholt,entertainment,41.214609,-92.226244
+138,Reilly LLC,home,30.382414,-90.923894
+139,"Moore, Williamson and Emmerich",home,30.509950,-99.374201
+140,Rau-Robel,kids_pets,42.186473,-84.041557
+141,"Fadel, Mertz and Rippin",entertainment,39.456658,-99.569786
+142,Crona and Sons,kids_pets,32.053228,-97.160999
+143,"Bahringer, Bergnaum and Quitzon",home,40.922923,-91.977219
+144,"Koss, Hansen and Lueilwitz",home,39.535382,-77.064747
+145,"Yost, Schamberger and Windler",kids_pets,33.693106,-89.594744
+146,"Armstrong, Walter and Gottlieb",food_dining,41.061214,-73.997981
+147,Friesen Ltd,health_fitness,38.211238,-90.421871
+148,Champlin and Sons,home,44.959020,-69.150254
+149,Bins-Tillman,entertainment,40.535495,-123.900519
+150,Douglas-White,entertainment,43.143727,-109.338705
+151,"Hermiston, Pacocha and Smith",health_fitness,38.420616,-92.942305
+152,"Denesik, Powlowski and Pouros",home,26.708918,-79.679105
+153,Nader-Maggio,personal_care,43.760065,-72.192128
+154,"O'Reilly, Mohr and Purdy",home,36.312953,-89.938402
+155,O'Connell-Ullrich,home,39.417666,-76.627816
+156,Bauch-Blanda,entertainment,27.482301,-83.200829
+157,"Ruecker, Beer and Collier",shopping_net,41.493850,-74.258146
+158,Berge-Hills,kids_pets,32.390381,-111.567332
+159,White and Sons,home,33.623691,-118.424568
+160,Adams-Barrows,health_fitness,41.502652,-73.721972
+161,Pouros-Haag,shopping_pos,43.795359,-96.833415
+162,"Hahn, Bahringer and McLaughlin",personal_care,26.674733,-82.009233
+163,Ziemann-Waters,health_fitness,31.152375,-95.272196
+164,"Wuckert, Wintheiser and Friesen",home,48.456992,-107.518067
+165,Bednar PLC,kids_pets,41.131668,-75.188408
+166,Kihn Inc,shopping_pos,34.442520,-92.264081
+167,Fisher Inc,shopping_net,32.071768,-96.748077
+168,"Schneider, Hayes and Nikolaus",food_dining,43.523030,-88.132231
+169,"Greenholt, O'Hara and Balistreri",shopping_net,28.669762,-82.456744
+170,Gottlieb-Hansen,personal_care,40.067362,-80.213927
+171,"Douglas, Schneider and Turner",shopping_pos,34.858369,-98.135879
+172,"Gutmann, McLaughlin and Wiza",home,39.485253,-92.983354
+173,Weber and Sons,food_dining,38.416893,-79.245340
+174,Bartoletti and Sons,personal_care,42.541989,-75.057743
+175,Powlowski-Weimann,food_dining,33.936769,-86.762376
+176,"Lakin, Ferry and Beatty",food_dining,45.877554,-85.362472
+177,"Terry, Johns and Bins",misc_pos,42.127625,-71.635136
+178,Thiel-Thiel,entertainment,39.417127,-84.959324
+179,Kuhn Group,food_dining,41.416020,-95.774493
+180,"Schaefer, Fay and Hilll",entertainment,38.665727,-80.435349
+181,"Roberts, Ryan and Smith",personal_care,34.871462,-91.496576
+182,Stiedemann Ltd,food_dining,43.051363,-87.799946
+183,Pacocha-Weissnat,kids_pets,39.544819,-76.943965
+184,Homenick LLC,personal_care,33.647548,-80.753830
+185,Cartwright PLC,kids_pets,42.225874,-83.540129
+186,Kihn-Fritsch,food_dining,40.312539,-81.654015
+187,Lynch Ltd,shopping_pos,37.901707,-79.523650
+188,Klein Group,entertainment,42.964421,-83.670351
+189,Quitzon-Goyette,home,38.215956,-75.272334
+190,Greenholt Ltd,health_fitness,39.151823,-75.035003
+191,Bahringer Group,health_fitness,41.103974,-98.484500
+192,Hilpert-Conroy,kids_pets,31.361379,-85.084231
+193,"Witting, Beer and Ernser",home,35.342658,-106.334921
+194,Breitenberg-Hermiston,kids_pets,41.415532,-89.517881
+195,Friesen Inc,shopping_pos,37.191244,-94.746417
+196,"Baumbach, Strosin and Nicolas",shopping_pos,29.472265,-96.142210
+197,Rippin-VonRueden,health_fitness,30.950957,-94.108481
+198,"Nienow, Ankunding and Collier",misc_pos,36.333062,-86.086992
+199,Schmidt and Sons,shopping_net,32.678558,-87.272214
+200,"Prosacco, Kreiger and Kovacek",home,42.013548,-88.039021
+201,Schumm PLC,health_fitness,37.019405,-97.388758
+202,Berge-Ullrich,home,33.914314,-111.576584
+203,"Roob, Conn and Tremblay",shopping_pos,32.852509,-95.443675
+204,Kihn-Schuster,food_dining,42.526152,-70.524338
+205,Monahan-Morar,personal_care,43.845330,-116.859776
+206,Botsford Ltd,shopping_pos,32.422918,-96.070476
+207,Hamill-D'Amore,health_fitness,36.955738,-105.798176
+208,"Bradtke, Torp and Bahringer",personal_care,34.174750,-96.873112
+209,Gaylord-Powlowski,home,41.056503,-96.593249
+210,Mayert Group,shopping_pos,34.154574,-117.853243
+211,Beier and Sons,home,43.621152,-85.447931
+212,Abbott-Steuber,personal_care,43.046296,-122.689361
+213,Ernser-Lynch,food_dining,41.402386,-73.167331
+214,Little Ltd,kids_pets,41.123100,-101.207306
+215,Gislason Group,travel,30.870870,-92.873036
+216,Stark-Koss,home,28.642801,-82.701559
+217,"Crist, Jakubowski and Littel",home,38.908427,-99.275548
+218,Kling-Ernser,entertainment,39.097309,-79.398315
+219,"Cronin, Kshlerin and Weber",health_fitness,42.079377,-96.459033
+220,Upton PLC,entertainment,41.928491,-80.004966
+221,Carroll PLC,health_fitness,33.315422,-85.538494
+222,Effertz LLC,entertainment,32.024134,-84.370346
+223,Windler LLC,kids_pets,28.515250,-81.926400
+224,Satterfield-Lowe,travel,42.039551,-80.436670
+225,Schuppe-Schuppe,food_dining,28.984465,-95.201668
+226,Nader-Heller,misc_net,37.330453,-86.371893
+227,Auer-West,shopping_net,27.229740,-79.854819
+228,"Lesch, D'Amore and Brown",food_dining,39.373197,-78.936159
+229,Barrows PLC,shopping_pos,39.718638,-83.508406
+230,"O'Connell, Botsford and Hand",home,48.593996,-109.341640
+231,Bode-Schuster,kids_pets,37.234253,-80.919841
+232,O'Keefe-Wisoky,food_dining,31.580890,-100.124515
+233,Conroy-Emard,food_dining,42.771404,-86.007649
+234,Kutch-Ferry,home,42.945526,-108.530901
+235,Donnelly LLC,entertainment,39.990538,-83.772467
+236,Weimann-Lockman,kids_pets,41.264839,-89.537983
+237,Runte-Mohr,food_dining,32.811948,-117.597983
+238,"Dare, Fritsch and Zboncak",health_fitness,24.630585,-80.806677
+239,"Kihn, Brakus and Goyette",personal_care,40.754358,-84.749070
+240,Medhurst PLC,shopping_net,36.466740,-78.785534
+241,Waelchi Inc,kids_pets,47.578090,-117.293211
+242,Dickinson Ltd,personal_care,40.875589,-87.326088
+243,"Little, Gutmann and Lynch",shopping_net,41.990632,-79.263948
+244,Schaefer Ltd,kids_pets,44.941330,-72.776396
+245,Ankunding LLC,shopping_net,41.054447,-73.397034
+246,Schoen-Quigley,kids_pets,30.294573,-91.095702
+247,Towne LLC,misc_pos,30.913891,-89.899434
+248,"Hills, Hegmann and Schaefer",health_fitness,39.757225,-74.168759
+249,"Durgan, Gislason and Spencer",home,40.748806,-80.020684
+250,"Hauck, Dietrich and Funk",kids_pets,42.491626,-112.511975
+251,"Lubowitz, Terry and Stracke",personal_care,42.096035,-109.177709
+252,Erdman-Ebert,personal_care,41.642272,-72.961369
+253,Kub PLC,personal_care,40.399461,-104.893892
+254,"Lehner, Reichert and Mills",misc_pos,41.326093,-74.999578
+255,"Schiller, Blanda and Johnson",home,38.082840,-81.851367
+256,Bins-Howell,personal_care,39.746745,-75.181483
+257,"Turcotte, Batz and Buckridge",health_fitness,33.937535,-101.727485
+258,Will Ltd,food_dining,45.528331,-85.948783
+259,Gibson-Deckow,entertainment,26.197333,-81.976019
+260,Treutel-King,travel,48.472897,-96.572501
+261,Schmidt-Larkin,home,29.444963,-98.571075
+262,"Windler, Goodwin and Kovacek",home,35.013372,-81.234030
+263,Medhurst Inc,home,38.876506,-94.460586
+264,Breitenberg LLC,travel,42.299024,-83.435877
+265,Terry Ltd,home,39.829193,-88.918803
+266,"Runte, Green and Emard",health_fitness,30.990542,-92.331269
+267,Feil-Morar,health_fitness,47.008606,-122.947605
+268,Kilback and Sons,entertainment,32.932743,-80.714156
+269,"Conroy, Balistreri and Gorczany",health_fitness,44.158389,-122.847567
+270,Schuppe LLC,entertainment,44.356976,-70.550417
+271,Renner Ltd,home,33.838915,-118.103495
+272,"Romaguera, Wehner and Tromp",kids_pets,46.117649,-90.185110
+273,McKenzie-Huels,food_dining,40.827382,-79.440972
+274,Dare-Marvin,entertainment,40.649456,-91.853059
+275,Gleason and Sons,kids_pets,32.695932,-85.966237
+276,"Cole, Hills and Jewess",home,38.078224,-90.547260
+277,Roob-Okuneva,health_fitness,33.978250,-93.426367
+278,Padberg-Sauer,home,44.383358,-88.749658
+279,Gerhold LLC,home,45.051656,-89.608719
+280,Botsford and Sons,home,32.706896,-90.066216
+281,Volkman-Predovic,shopping_net,47.725933,-116.128542
+282,Dare-Gibson,health_fitness,37.336537,-82.499229
+283,Rempel Inc,shopping_net,33.841492,-86.611828
+284,Torphy-Kertzmann,health_fitness,41.052295,-81.209189
+285,"Runolfsdottir, Mueller and Hand",entertainment,40.902598,-74.477744
+286,"Torp, Muller and Borer",health_fitness,34.303243,-80.187714
+287,Abshire PLC,entertainment,41.407162,-95.817404
+288,Spencer-Runolfsson,misc_pos,38.730568,-98.102164
+289,Streich Ltd,home,41.512745,-73.317596
+290,Bernier and Sons,kids_pets,32.494871,-81.523332
+291,"Dare, Casper and Bartoletti",kids_pets,39.712232,-73.575595
+292,Zboncak LLC,food_dining,36.136522,-80.589657
+293,Erdman-Durgan,health_fitness,42.143827,-79.879829
+294,Thiel Ltd,travel,40.605317,-73.406205
+295,Heathcote LLC,shopping_net,33.831991,-85.328265
+296,Eichmann-Kilback,home,40.161309,-74.231936
+297,"Hoppe, Harris and Bednar",entertainment,29.878219,-94.461770
+298,Hammes-Beatty,kids_pets,35.945426,-92.221833
+299,Jacobi and Sons,shopping_pos,43.375888,-70.075104
+300,Jast and Sons,food_dining,47.715413,-90.378726
+301,"Streich, Rolfson and Wilderman",kids_pets,36.487564,-97.845069
+302,Zboncak Ltd,food_dining,44.029090,-90.007410
+303,Lemke and Sons,travel,38.328992,-80.294548
+304,Kulas Group,health_fitness,38.071244,-76.324485
+305,Goldner-Lemke,entertainment,40.205391,-78.910845
+306,Predovic Inc,shopping_net,35.600113,-81.519936
+307,Howe Ltd,misc_pos,36.162080,-106.135057
+308,Stoltenberg-Beatty,shopping_pos,33.144224,-81.665610
+309,Bruen-Yost,misc_pos,48.597926,-111.918758
+310,"Reichel, Bradtke and Blanda",travel,34.447356,-118.073953
+311,Morissette PLC,shopping_pos,30.157555,-96.142207
+312,"Reichert, Huels and Hoppe",shopping_net,40.073568,-96.174485
+313,Hills-Witting,shopping_net,45.386934,-86.244865
+314,Shanahan-Lehner,personal_care,45.822943,-92.858463
+315,Bogisich-Weimann,kids_pets,48.171411,-121.732777
+316,"Douglas, DuBuque and McKenzie",travel,27.852817,-81.151943
+317,Daugherty-Thompson,food_dining,42.921813,-94.956066
+318,Goyette-Herzog,travel,37.256405,-96.776464
+319,Keeling-Crist,misc_pos,33.883242,-96.212609
+320,"Walter, Hettinger and Kessler",personal_care,41.560002,-82.357444
+321,Kozey-McDermott,travel,43.666893,-85.285981
+322,"McDermott, Osinski and Morar",home,33.786513,-85.662057
+323,"Kilback, Nitzsche and Leffler",travel,31.553201,-90.227159
+324,Vandervort-Funk,grocery_pos,44.996837,-93.055743
+325,Hills-Boyer,personal_care,41.138383,-74.355987
+326,Jast Ltd,shopping_net,42.477469,-74.115102
+327,Grimes LLC,entertainment,29.666873,-94.507680
+328,Gulgowski LLC,home,43.270338,-93.940150
+329,Mohr-Bayer,shopping_net,40.847854,-74.655756
+330,"Bahringer, Osinski and Block",food_dining,40.269511,-74.907883
+331,Simonis-Prohaska,misc_pos,31.424535,-94.913213
+332,"Kunze, Larkin and Mayert",travel,31.916229,-92.172520
+333,"Becker, Harris and Harvey",personal_care,47.404533,-90.177169
+334,Kutch-Wilderman,home,38.621529,-88.338930
+335,"Lehner, Mosciski and King",misc_net,33.204335,-78.992084
+336,Heaney-Marquardt,entertainment,48.341754,-117.775503
+337,"McCullough, Hudson and Schuster",food_dining,43.393371,-95.540635
+338,Kilback LLC,food_dining,39.886517,-73.953569
+339,Kub-Heaney,health_fitness,41.940846,-86.960874
+340,"Schumm, McLaughlin and Carter",food_dining,42.858530,-86.582743
+341,Heller PLC,health_fitness,41.877030,-79.443460
+342,"Hahn, Douglas and Schowalter",travel,40.890387,-74.847067
+343,Kertzmann LLC,health_fitness,39.742706,-73.614195
+344,"Mueller, Gerhold and Mueller",health_fitness,39.426242,-80.030474
+345,"Reinger, Weissnat and Strosin",food_dining,43.839847,-73.339878
+346,Connelly PLC,food_dining,41.312746,-104.149965
+347,Conroy Ltd,shopping_pos,41.793532,-73.225285
+348,"Willms, Kris and Bergnaum",shopping_pos,41.283019,-73.896097
+349,"Pouros, Walker and Spencer",kids_pets,39.595859,-77.141641
+350,"Roberts, Daniel and Macejkovic",kids_pets,43.556404,-122.127299
+351,"Heathcote, Yost and Kertzmann",shopping_net,45.339446,-92.880697
+352,Larkin Ltd,kids_pets,41.396358,-75.687624
+353,Metz-Boehm,shopping_pos,27.395492,-81.588426
+354,Parker-Kunde,personal_care,42.230800,-109.846701
+355,Yost-Rogahn,personal_care,37.322829,-87.355525
+356,Crooks and Sons,personal_care,32.788007,-117.577349
+357,"Nienow, Barrows and Romaguera",personal_care,34.818461,-86.398764
+358,Gleason-Macejkovic,shopping_net,36.827640,-87.770196
+359,Altenwerth-Kilback,home,37.670632,-75.551876
+360,Kuphal-Toy,food_dining,35.470693,-95.340576
+361,Schulist Ltd,food_dining,26.187620,-79.409951
+362,Welch Inc,misc_net,39.296217,-85.553437
+363,Kassulke PLC,shopping_net,39.975851,-74.427575
+364,Rau-Grant,kids_pets,36.868586,-89.428053
+365,Macejkovic-Lesch,shopping_pos,40.505388,-73.614691
+366,"Graham, Hegmann and Hammes",food_dining,45.917921,-96.982872
+367,Waters-Cruickshank,health_fitness,25.949027,-81.614795
+368,Lesch Ltd,shopping_pos,31.963209,-96.904265
+369,Kozey-Boehm,shopping_net,39.881690,-80.606705
+370,Bode-Rempel,kids_pets,39.747596,-121.025700
+371,"Romaguera, Cruickshank and Greenholt",shopping_net,40.666160,-75.172194
+372,Howe PLC,entertainment,40.832063,-72.356489
+373,Volkman PLC,food_dining,38.098088,-99.535354
+374,"Quitzon, Green and Bashirian",shopping_pos,31.806895,-95.824114
+375,Shields-Wunsch,health_fitness,40.449446,-93.732536
+376,Williamson LLC,misc_pos,26.685826,-81.346494
+377,Fadel Inc,health_fitness,42.038811,-80.703871
+378,Pacocha-Bauch,shopping_pos,27.352228,-81.706377
+379,Fisher-Schowalter,shopping_net,40.354282,-95.469833
+380,Johns Inc,entertainment,39.043770,-121.591377
+381,Nolan-Williamson,kids_pets,43.791043,-74.816291
+382,Maggio-Fahey,misc_pos,40.970728,-106.633905
+383,Denesik and Sons,shopping_pos,40.859421,-80.528177
+384,Jast-McDermott,shopping_pos,42.587330,-91.339385
+385,Price Inc,shopping_net,35.953776,-83.183658
+386,Schoen Ltd,kids_pets,44.411489,-89.326395
+387,Fahey Inc,kids_pets,29.266139,-93.257683
+388,Stiedemann Inc,misc_pos,33.106770,-86.912578
+389,Mohr Inc,shopping_pos,41.198152,-77.208296
+390,Wisozk and Sons,misc_pos,42.371518,-76.933242
+391,Rolfson-Kunde,personal_care,41.134903,-82.311256
+392,Wuckert-Goldner,home,45.033353,-110.733222
+393,Pouros-Conroy,shopping_pos,39.231873,-76.023854
+394,Kuhn LLC,shopping_pos,30.844109,-83.494447
+395,Skiles LLC,home,37.122514,-88.328393
+396,Boyer PLC,misc_pos,40.036255,-84.890546
+397,Reilly and Sons,health_fitness,35.861878,-105.587001
+398,Ratke and Sons,health_fitness,44.068256,-76.909719
+399,Emmerich-Rau,personal_care,44.503750,-116.165769
+400,Marvin-Lind,personal_care,29.742803,-94.781998
+401,Wiza LLC,misc_pos,42.280586,-108.411593
+402,Torp-Lemke,misc_pos,40.969640,-74.160249
+403,"Effertz, Welch and Schowalter",entertainment,41.652797,-74.709973
+404,Jerde-Hermann,travel,40.618236,-83.341865
+405,Kassulke Inc,entertainment,35.492449,-105.688423
+406,Ankunding-Carroll,travel,41.637348,-78.275198
+407,Waelchi-Wolf,kids_pets,39.878585,-87.710613
+408,Pagac LLC,shopping_pos,37.896448,-78.107834
+409,Cormier LLC,health_fitness,39.808784,-118.811614
+410,"Larkin, Stracke and Greenfelder",entertainment,35.904748,-105.378470
+411,Ebert-Daugherty,travel,41.009564,-74.266427
+412,"Rohan, White and Aufderhar",misc_net,39.800444,-77.485215
+413,Schmeler-Howe,personal_care,42.850909,-82.188012
+414,Osinski Inc,personal_care,39.381571,-76.848057
+415,"Bernhard, Grant and Langworth",shopping_pos,41.406537,-86.533296
+416,"Hagenes, Kohler and Hoppe",food_dining,37.137629,-82.236135
+417,"Klocko, Runolfsdottir and Breitenberg",health_fitness,30.331042,-90.080735
+418,"Larson, Quitzon and Spencer",travel,37.485914,-89.469088
+419,"Weber, Thiel and Hammes",kids_pets,39.846208,-74.545112
+420,Christiansen-Gusikowski,misc_pos,46.487563,-102.120829
+421,Morissette-Schaefer,personal_care,40.872990,-74.382261
+422,Watsica LLC,personal_care,40.662681,-92.930413
+423,Jakubowski Group,food_dining,39.321006,-88.102307
+424,Herzog Ltd,misc_pos,40.786162,-87.652333
+425,Hackett Group,travel,44.715569,-88.479676
+426,Reichel Inc,entertainment,40.505514,-85.982640
+427,Abernathy and Sons,food_dining,29.891735,-84.918105
+428,Stark-Batz,entertainment,36.815628,-105.649218
+429,"Konopelski, Schneider and Hartmann",food_dining,27.257568,-83.307255
+430,"Ledner, Hartmann and Feest",health_fitness,44.892284,-67.696852
+431,Champlin-Casper,home,37.933185,-121.377611
+432,Goyette-Gerhold,kids_pets,41.670636,-72.796633
+433,"Kihn, Abernathy and Douglas",shopping_net,34.667878,-96.539902
+434,"Stanton, Jakubowski and Baumbach",shopping_net,33.277050,-96.759690
+435,Terry-Huel,shopping_net,39.024830,-82.412508
+436,Cummerata-Hilpert,entertainment,43.743940,-76.876276
+437,Turner and Sons,shopping_pos,45.053904,-93.821730
+438,"Bahringer, Schoen and Corkery",shopping_pos,38.812819,-91.535240
+439,"Hettinger, McCullough and Fay",home,39.305018,-79.558079
+440,"Hayes, Marquardt and Dibbert",misc_net,44.019518,-73.797242
+441,Zulauf LLC,personal_care,36.765301,-86.181291
+442,Dibbert-Green,entertainment,42.207797,-73.825392
+443,Brown Inc,kids_pets,40.651547,-91.373840
+444,Fadel-Hilpert,health_fitness,42.646782,-71.910757
+445,"Turner, Ziemann and Lehner",food_dining,41.645151,-74.148344
+446,Fritsch LLC,travel,40.465173,-90.117516
+447,"Labadie, Treutel and Bode",shopping_net,36.807586,-80.715879
+448,"Hodkiewicz, Prohaska and Paucek",travel,42.184652,-91.389132
+449,Swift PLC,kids_pets,34.190091,-90.727797
+450,Little-Gleichner,travel,40.791981,-92.443605
+451,Stamm-Witting,shopping_net,41.997698,-85.445299
+452,"Zboncak, Rowe and Murazik",shopping_net,40.147014,-79.281420
+453,Baumbach Ltd,personal_care,34.527954,-116.634250
+454,"Lowe, Dietrich and Erdman",kids_pets,33.906352,-97.162914
+455,"Hermiston, Russel and Price",food_dining,43.296762,-69.139989
+456,Auer LLC,personal_care,30.766627,-85.346714
+457,Fritsch and Sons,health_fitness,27.460208,-81.449584
+458,Wilkinson PLC,kids_pets,47.144595,-90.873995
+459,Jakubowski Inc,home,41.235842,-89.011383
+460,Boyer-Reichert,shopping_net,40.972735,-91.751609
+461,Boyer-Haley,travel,30.174235,-97.308911
+462,Dietrich-Fadel,health_fitness,34.107209,-98.779037
+463,"Haley, Jewess and Bechtelar",shopping_pos,42.368731,-87.663919
+464,McGlynn-Jaskolski,misc_pos,33.456802,-119.006462
+465,"Turcotte, McKenzie and Koss",entertainment,38.284960,-89.738369
+466,"Cormier, Stracke and Thiel",entertainment,41.084306,-110.069399
+467,"Baumbach, Feeney and Morar",shopping_net,40.772463,-100.373567
+468,Turcotte-Halvorson,misc_pos,45.931359,-114.773945
+469,Hyatt-Blick,travel,33.997531,-88.152515
+470,"Bernier, Volkman and Hoeger",misc_net,39.013076,-120.009922
+471,"Gottlieb, Considine and Schultz",shopping_net,34.496590,-96.913335
+472,Frami Group,entertainment,43.205814,-85.687968
+473,Lebsack and Sons,misc_net,46.558591,-93.551050
+474,"Haley, Batz and Auer",health_fitness,41.090000,-102.276338
+475,Beier-Hyatt,shopping_pos,41.299053,-78.085167
+476,Halvorson Group,misc_pos,42.193130,-108.682054
+477,Johns-Hoeger,entertainment,36.192759,-89.343596
+478,Schroeder Group,health_fitness,38.263447,-86.471079
+479,"Weimann, Kuhic and Beahan",shopping_pos,35.292202,-86.173517
+480,Kozey-Kuhlman,personal_care,39.127097,-82.504994
+481,Kris-Padberg,shopping_pos,30.498883,-95.877962
+482,Dibbert and Sons,entertainment,38.451359,-115.151069
+483,Collier LLC,home,33.625688,-96.886401
+484,Bednar Inc,travel,43.093102,-76.907807
+485,Durgan-Auer,misc_net,38.357812,-96.279581
+486,Murray-Smitham,grocery_pos,40.250270,-120.148107
+487,"Kling, Howe and Schneider",home,46.423786,-85.983681
+488,Larson-Moen,entertainment,44.261530,-74.262208
+489,Cruickshank-Mills,entertainment,45.046358,-109.932626
+490,"Berge, Kautzer and Harris",personal_care,36.287989,-106.057582
+491,O'Hara-Wilderman,food_dining,31.031596,-106.134405
+492,"Hyatt, Russel and Gleichner",health_fitness,38.241526,-85.885224
+493,"Bins, Balistreri and Beatty",shopping_pos,40.912802,-73.872017
+494,Jewess LLC,shopping_pos,39.426167,-83.576676
+495,"Hartmann, Rowe and Hermann",travel,38.663417,-107.091051
+496,Buckridge PLC,misc_pos,32.848260,-81.024274
+497,Langworth LLC,personal_care,32.659905,-99.171874
+498,"Metz, Russel and Metz",kids_pets,34.089923,-87.352639
+499,"Schoen, Kuphal and Nitzsche",grocery_pos,34.380994,-91.371524
+500,Erdman-Schaden,personal_care,39.197334,-79.197068
+501,Reichert-Weissnat,travel,44.742413,-87.939312
+502,McDermott-Rice,misc_pos,47.904074,-92.818654
+503,"Streich, Dietrich and Barton",shopping_net,40.486739,-95.008421
+504,Gerlach Inc,shopping_net,37.499003,-84.952946
+505,Dooley Inc,shopping_pos,39.570788,-85.377530
+506,Thompson-Gleason,health_fitness,40.483045,-80.850283
+507,"Reichert, Shanahan and Hayes",shopping_net,44.641602,-74.440182
+508,"Kutch, Steuber and Gerhold",food_dining,41.608019,-80.219130
+509,Harris Group,food_dining,33.688442,-94.495624
+510,"Schuppe, Nolan and Hoeger",shopping_pos,28.616763,-82.037213
+511,Bashirian Group,shopping_net,30.007986,-88.037757
+512,"Towne, Greenholt and Koepp",shopping_net,34.385622,-93.154235
+513,Haag-Blanda,food_dining,28.693179,-83.649795
+514,Abbott-Rogahn,entertainment,31.241331,-84.380598
+515,Lind-Buckridge,entertainment,28.722845,-83.228076
+516,"Altenwerth, Cartwright and Koss",shopping_net,41.975540,-81.979879
+517,"Daugherty, Pouros and Beahan",shopping_pos,34.065238,-111.981198
+518,"Langosh, Wintheiser and Hyatt",food_dining,44.801505,-84.226252
+519,Beier LLC,entertainment,39.020909,-91.026669
+520,"Brown, Homenick and Lesch",health_fitness,42.525305,-83.029194
+521,Spencer PLC,entertainment,39.781809,-75.309635
+522,"Ritchie, Oberbrunner and Cremin",travel,45.027308,-69.511130
+523,Kovacek Ltd,travel,40.451540,-82.769136
+524,Pollich LLC,home,34.550241,-99.143543
+525,"Baumbach, Hodkiewicz and Walsh",shopping_pos,33.481016,-119.174078
+526,"Koss, McLaughlin and Mayer",food_dining,34.525931,-83.561760
+527,Kessler Group,travel,44.444997,-93.515788
+528,Smith-Stokes,misc_pos,35.199444,-98.221661
+529,Herman Inc,misc_pos,40.380445,-120.421555
+530,Kuhic LLC,shopping_net,41.745952,-88.032608
+531,Pfeffer and Sons,shopping_pos,30.779793,-94.692935
+532,Botsford PLC,home,33.264607,-96.844598
+533,"Schoen, Nienow and Bauch",personal_care,41.363411,-97.326187
+534,Turner LLC,travel,40.904547,-90.066219
+535,"Parker, Nolan and Trantow",entertainment,26.175473,-81.247278
+536,"Ritchie, Bradtke and Stiedemann",travel,27.760291,-83.255641
+537,Ruecker-Mayert,kids_pets,44.788762,-83.758207
+538,Ullrich Ltd,kids_pets,30.236123,-95.126245
+539,"Schmeler, Bashirian and Price",shopping_net,34.228205,-90.286508
+540,Mosciski Group,travel,45.351778,-98.096311
+541,"Boehm, Block and Jakubowski",misc_pos,44.010259,-73.959523
+542,Deckow-Dare,food_dining,27.905766,-81.870131
+543,Beer-Jast,kids_pets,37.786214,-118.180091
+544,Schimmel-Olson,kids_pets,38.664563,-114.817997
+545,Schmeler Inc,misc_pos,44.103703,-88.365659
+546,Thiel PLC,misc_pos,34.324645,-81.309375
+547,"Boehm, Predovic and Reinger",misc_pos,43.830733,-70.270472
+548,Graham and Sons,health_fitness,30.281911,-87.867837
+549,McCullough LLC,misc_pos,33.892070,-81.665803
+550,"Mosciski, Gislason and Mertz",grocery_pos,36.602320,-87.056849
+551,"Schroeder, Hauck and Treutel",entertainment,38.593355,-90.756664
+552,Block-Parisian,misc_net,34.227277,-90.636251
+553,Flatley Group,misc_pos,40.501205,-110.574429
+554,"McLaughlin, Armstrong and Koepp",travel,39.071956,-94.832376
+555,Wilkinson LLC,personal_care,40.188555,-99.438592
+556,Sawayn PLC,shopping_pos,26.672842,-82.173487
+557,Eichmann-Russel,misc_pos,46.202223,-86.004273
+558,Hermann and Sons,shopping_pos,38.358978,-79.891038
+559,Goyette Inc,shopping_net,35.812356,-97.907315
+560,Barton LLC,kids_pets,40.383396,-74.604365
+561,"Yost, Block and Koepp",misc_pos,35.788081,-96.740769
+562,Kerluke-Abshire,shopping_net,32.398231,-86.185409
+563,Padberg-Rogahn,entertainment,30.285454,-94.801933
+564,Dach-Nader,misc_net,31.812470,-81.052993
+565,"Wintheiser, Dietrich and Schimmel",misc_pos,38.667352,-76.733553
+566,"Champlin, Rolfson and Connelly",travel,43.836774,-71.310584
+567,Jacobi Inc,health_fitness,42.918708,-87.660539
+568,Koelpin and Sons,misc_net,30.176993,-94.853891
+569,"Medhurst, Labadie and Gottlieb",travel,36.710406,-91.259920
+570,Bednar Group,misc_net,29.653833,-94.965909
+571,Friesen-Ortiz,personal_care,42.510778,-79.818433
+572,"Turner, Ruecker and Parisian",misc_pos,41.890948,-123.704735
+573,Rutherford-Mertz,grocery_pos,40.403704,-86.976670
+574,Gutmann-Upton,misc_pos,29.415177,-96.019727
+575,"Medhurst, Cartwright and Ebert",personal_care,41.627631,-87.272488
+576,"Nicolas, Hills and McGlynn",entertainment,45.586584,-86.406962
+577,"Nitzsche, Kessler and Wolff",shopping_pos,41.950841,-100.341086
+578,Wilkinson Ltd,entertainment,33.674494,-92.839316
+579,Kris-Kertzmann,travel,39.749819,-80.597925
+580,Roberts-Beahan,misc_pos,35.604846,-99.475140
+581,Bernhard-Lesch,food_dining,42.727483,-86.950888
+582,"Monahan, Bogisich and Ledner",misc_pos,39.032377,-95.146182
+583,Kessler Inc,travel,43.220381,-94.640548
+584,Padberg-Welch,grocery_pos,37.732860,-81.815874
+585,Block Group,misc_pos,39.427676,-90.506861
+586,Torphy-Goyette,shopping_pos,49.578084,-92.651077
+587,"Mante, Luettgen and Hackett",health_fitness,38.181104,-82.623663
+588,Bailey-Morar,grocery_pos,41.190610,-70.444900
+589,Lynch-Mohr,travel,39.028042,-121.343800
+590,"Rodriguez, Yost and Jenkins",misc_net,42.461127,-91.147148
+591,Stamm-Rodriguez,misc_pos,41.268298,-78.512249
+592,"Okuneva, Schneider and Rau",shopping_pos,46.254213,-87.237730
+593,Hirthe-Beier,health_fitness,38.318768,-79.627593
+594,Tromp Group,travel,45.708966,-114.205700
+595,"Schroeder, Wolff and Hermiston",travel,35.428641,-83.486086
+596,"Reichert, Rowe and Mraz",shopping_net,30.761363,-91.713600
+597,Bahringer-Streich,food_dining,47.382283,-116.340825
+598,Romaguera and Sons,travel,45.844550,-93.586683
+599,Lemke-Gutmann,shopping_net,43.027879,-90.493768
+600,Heller-Langosh,gas_transport,40.727315,-80.509524
+601,Hintz-Bruen,grocery_net,42.753100,-75.137688
+602,McGlynn-Heathcote,misc_net,40.096047,-73.566039
+603,Bernhard Inc,gas_transport,38.576704,-121.486292
+604,Bahringer-Larson,grocery_net,41.530082,-72.997182
+605,"Reilly, Heaney and Cole",gas_transport,38.550494,-94.392731
+606,"Bernier, Streich and Jewess",grocery_net,35.402522,-106.846233
+607,Friesen-D'Amore,gas_transport,39.193646,-102.326850
+608,"Huel, Hammes and Witting",grocery_pos,42.720810,-70.539516
+609,Miller-Hauck,grocery_pos,36.816887,-88.675529
+610,Skiles-Ankunding,grocery_net,42.975203,-97.178157
+611,Schmitt Ltd,misc_net,43.283413,-83.544440
+612,Kerluke Inc,misc_net,40.260898,-85.280002
+613,Volkman Ltd,misc_net,39.446860,-96.235278
+614,Prohaska-Murray,gas_transport,41.500355,-78.604957
+615,Schmitt Inc,gas_transport,41.166513,-74.573821
+616,"Kerluke, Considine and Macejkovic",misc_net,34.326535,-92.277737
+617,Kutch-Hegmann,grocery_net,45.352283,-92.885389
+618,Spinka Inc,grocery_net,38.708993,-94.620831
+619,Stracke-Lemke,grocery_pos,36.502494,-81.683648
+620,"Raynor, Feest and Miller",gas_transport,40.045941,-78.139764
+621,Strosin-Cruickshank,grocery_pos,29.776212,-97.765839
+622,"Schaefer, McGlynn and Bosco",gas_transport,36.811578,-87.112117
+623,Marks Inc,gas_transport,45.521598,-119.843819
+624,Huel-Langworth,misc_net,45.081940,-73.750262
+625,"Eichmann, Bogan and Rodriguez",gas_transport,41.483531,-73.520897
+626,"Morissette, Weber and Wiegand",grocery_net,39.650264,-123.390242
+627,"Moen, Reinger and Murphy",grocery_pos,42.242654,-87.599956
+628,"Schultz, Simonis and Little",grocery_pos,41.927899,-77.611006
+629,"Ferry, Lynch and Kautzer",misc_net,39.166751,-77.168948
+630,"Osinski, Ledner and Leuschke",grocery_pos,34.909676,-92.574786
+631,Ledner-Pfannerstill,gas_transport,39.099347,-80.566364
+632,O'Keefe-Hudson,grocery_pos,43.782725,-83.834096
+633,Murray Ltd,grocery_net,30.089755,-88.852986
+634,Pfeffer LLC,grocery_net,31.024993,-106.787964
+635,Cole PLC,grocery_pos,37.382888,-93.194541
+636,Hudson-Ratke,grocery_pos,43.840441,-72.234548
+637,Kuvalis Ltd,gas_transport,38.743823,-109.485182
+638,Miller-Harris,misc_net,43.454096,-85.578221
+639,"Zieme, Bode and Dooley",gas_transport,33.288022,-80.620461
+640,"Swaniawski, Lowe and Robel",shopping_pos,32.816531,-90.941946
+641,Kemmer-Buckridge,misc_pos,27.831609,-80.654810
+642,"Swift, Bradtke and Marquardt",grocery_net,32.315985,-92.595008
+643,"Olson, Becker and Koch",gas_transport,38.578188,-121.820766
+644,Bartoletti-Wunsch,gas_transport,40.318063,-74.647209
+645,Emard Inc,gas_transport,41.616113,-70.161254
+646,"Ferry, Reichel and DuBuque",grocery_net,41.925131,-94.613785
+647,Kemmer-Reinger,grocery_net,43.112328,-72.954176
+648,Koss and Sons,gas_transport,37.279410,-97.679542
+649,Hackett-Lueilwitz,grocery_pos,31.759759,-96.366476
+650,Barton Inc,grocery_pos,40.835393,-92.252619
+651,Lockman Ltd,grocery_pos,35.955912,-86.910625
+652,Klocko LLC,misc_net,35.530215,-83.775159
+653,Kunze Inc,grocery_pos,41.140809,-98.320732
+654,Luettgen PLC,gas_transport,36.944262,-85.034150
+655,Cummerata-Jones,gas_transport,47.529496,-122.471001
+656,"Rowe, Batz and Goodwin",grocery_pos,32.976340,-95.955663
+657,Kling Inc,gas_transport,40.313319,-98.856358
+658,Kiehn-Emmerich,grocery_pos,30.223936,-91.108795
+659,Parisian and Sons,gas_transport,38.698652,-81.898704
+660,Sporer Inc,gas_transport,39.106634,-99.622284
+661,Kuphal-Bartoletti,misc_net,43.554465,-89.269587
+662,"Harris, Gusikowski and Heaney",grocery_net,45.167640,-122.870742
+663,Mraz-Herzog,gas_transport,25.432086,-81.697814
+664,Huels-Hahn,gas_transport,40.736570,-83.697393
+665,"Stroman, Hudson and Erdman",gas_transport,45.110547,-86.439480
+666,Huel Ltd,misc_net,37.728598,-96.320628
+667,"Cremin, Hamill and Reichel",misc_pos,31.541400,-80.596368
+668,Rowe-Vandervort,grocery_net,38.346939,-77.716159
+669,Bins-Rice,gas_transport,46.115218,-85.336134
+670,DuBuque LLC,grocery_pos,35.337875,-83.492357
+671,Torp-Labadie,gas_transport,37.149367,-90.793721
+672,Kiehn Inc,grocery_pos,33.922852,-117.165324
+673,"Tillman, Dickinson and Labadie",gas_transport,32.145824,-96.666765
+674,Friesen-Stamm,gas_transport,34.347957,-116.394113
+675,Kuhic Inc,grocery_pos,42.928098,-75.949843
+676,Dickinson-Rempel,misc_pos,32.184073,-94.323908
+677,Hudson-Grady,shopping_pos,34.530568,-118.022434
+678,"Goldner, Kovacek and Abbott",grocery_pos,29.784597,-90.671894
+679,Corwin-Collins,gas_transport,38.114718,-81.542048
+680,"Tillman, Fritsch and Schmitt",misc_net,40.760739,-88.009344
+681,Dach-Borer,grocery_net,32.602130,-82.664874
+682,Morar Inc,grocery_net,41.187977,-74.211927
+683,"Kutch, Hermiston and Farrell",gas_transport,43.220788,-95.529244
+684,"Connelly, Reichert and Fritsch",gas_transport,41.454985,-95.715426
+685,Schamberger-O'Keefe,grocery_pos,40.883095,-84.093601
+686,McDermott-Weimann,grocery_pos,41.414188,-78.402927
+687,Kerluke PLC,misc_net,39.457129,-111.592211
+688,"Casper, Hand and Zulauf",grocery_pos,46.406789,-101.852688
+689,"Greenfelder, Bartoletti and Davis",misc_net,38.747943,-77.566116
+690,Cartwright-Harris,grocery_pos,33.418601,-94.426724
+691,Rau and Sons,grocery_pos,38.962639,-85.685365
+692,Erdman-Kertzmann,gas_transport,28.153888,-81.485110
+693,Hamill-Daugherty,misc_net,46.493277,-122.538452
+694,Jaskolski-Vandervort,misc_net,44.464554,-123.318894
+695,Huels-Nolan,gas_transport,37.437550,-83.705585
+696,Trantow PLC,grocery_net,37.397303,-93.192833
+697,"Lockman, West and Runte",grocery_pos,39.812614,-76.489330
+698,"Johnson, Runolfsdottir and Mayer",misc_net,33.487349,-118.646404
+699,"Kovacek, Dibbert and Ondricka",grocery_pos,40.925733,-73.153839
+700,"Raynor, Reinger and Hagenes",gas_transport,40.692377,-74.889828
+701,Kutch LLC,gas_transport,38.223764,-82.496397
+702,Dooley-Thompson,misc_net,27.449605,-81.910850
+703,Harber Inc,gas_transport,45.475814,-92.387298
+704,"Schumm, Bauch and Ondricka",grocery_pos,26.019170,-99.458219
+705,"Moore, Dibbert and Koepp",misc_net,28.111718,-97.019550
+706,Flatley-Durgan,misc_net,32.761260,-98.035894
+707,Rodriguez Group,gas_transport,41.564972,-91.811935
+708,"Stokes, Christiansen and Sipes",grocery_net,32.270062,-97.064375
+709,Heidenreich PLC,grocery_pos,36.992111,-91.514520
+710,Bauch-Raynor,grocery_pos,40.282365,-91.300203
+711,"Langworth, Boehm and Gulgowski",shopping_net,38.398257,-84.015789
+712,Runolfsson and Sons,grocery_net,42.637545,-88.250976
+713,Ortiz Group,grocery_net,44.670376,-98.305036
+714,Zemlak Group,misc_net,34.056843,-84.093869
+715,Wuckert-Walter,grocery_net,27.569101,-83.483807
+716,"Tromp, Kerluke and Glover",grocery_net,26.806685,-82.877919
+717,Ruecker Group,misc_net,38.376080,-101.593425
+718,Deckow-O'Conner,grocery_pos,35.897696,-81.886071
+719,"Heller, Gutmann and Zieme",grocery_pos,36.646169,-83.144013
+720,"Robel, Cummerata and Prosacco",gas_transport,35.563473,-79.951589
+721,"Lind, Huel and McClure",gas_transport,39.799905,-74.456121
+722,Roob LLC,grocery_net,37.462429,-82.351557
+723,VonRueden Group,grocery_net,43.818798,-70.909568
+724,Wolf Inc,grocery_pos,39.912092,-79.740046
+725,Kutch and Sons,grocery_pos,32.292937,-97.563444
+726,Gutmann Ltd,grocery_net,47.968141,-101.055478
+727,"Jones, Sawayn and Romaguera",misc_net,42.301639,-74.747929
+728,Brekke and Sons,gas_transport,45.252270,-124.370680
+729,"Adams, Kovacek and Kuhlman",grocery_net,35.810395,-82.076116
+730,Collier Inc,grocery_net,38.451225,-119.473421
+731,"Greenholt, Jacobi and Gleason",gas_transport,32.655925,-96.612226
+732,"Stehr, Jewess and Schimmel",misc_net,31.742646,-80.713955
+733,Koepp-Witting,grocery_pos,39.435013,-79.889220
+734,Cummings LLC,gas_transport,39.224196,-85.040390
+735,Wiegand-Lowe,grocery_net,44.598213,-87.726658
+736,Paucek-Wiza,grocery_net,41.442988,-105.967516
+737,Conroy-Cruickshank,gas_transport,37.972914,-77.200920
+738,Bogisich-Homenick,misc_net,39.283187,-85.714481
+739,"Jenkins, Hauck and Friesen",gas_transport,65.115523,-164.862331
+740,Emmerich-Luettgen,grocery_net,35.232535,-82.054286
+741,Cassin-Harvey,grocery_net,41.625499,-90.526002
+742,"Schaefer, Maggio and Daugherty",gas_transport,38.662791,-93.799876
+743,"Kohler, Lindgren and Koelpin",grocery_net,38.088415,-76.164900
+744,Doyle Ltd,grocery_pos,32.394203,-93.410020
+745,Heller-Abshire,grocery_net,38.217758,-94.022930
+746,"Mosciski, Ziemann and Farrell",shopping_net,48.422355,-109.003115
+747,Cummings Group,grocery_net,42.945939,-88.065813
+748,"Swaniawski, Bahringer and Ledner",grocery_net,32.316590,-99.691471
+749,"Christiansen, Goyette and Schamberger",gas_transport,36.724607,-97.547827
+750,Bradtke PLC,grocery_pos,42.575018,-93.905440
+751,"Streich, Hansen and Veum",gas_transport,28.401636,-80.948844
+752,Pacocha-O'Reilly,grocery_pos,49.304409,-122.407288
+753,Koepp-Parker,grocery_pos,33.435654,-82.113641
+754,Auer-Mosciski,grocery_pos,42.094625,-78.495777
+755,"Wiza, Schaden and Stark",misc_pos,37.495493,-99.015468
+756,"Kuhic, Bins and Pfeffer",shopping_net,29.181574,-96.536938
+757,Bogisich Inc,grocery_pos,41.453510,-74.643838
+758,Kling-Grant,grocery_net,40.236420,-74.483814
+759,Kutch Group,grocery_net,35.242629,-90.582355
+760,Kuphal-Predovic,misc_net,30.685125,-89.533571
+761,Balistreri-Nader,misc_pos,37.187413,-86.107947
+762,Harris Inc,gas_transport,43.192317,-122.640439
+763,Berge LLC,gas_transport,35.897386,-95.288977
+764,"Towne, Walker and Borer",grocery_net,39.847184,-80.288595
+765,"Herman, Treutel and Dickens",misc_net,41.811873,-74.419126
+766,Kris-Weimann,misc_net,33.819209,-95.874630
+767,Reynolds-Schinner,misc_pos,41.013883,-75.262082
+768,Goodwin-Nitzsche,grocery_pos,32.774679,-96.509262
+769,Jaskolski-Dibbert,grocery_net,40.944444,-79.749277
+770,Dicki Ltd,grocery_net,30.226418,-95.790366
+771,Funk Group,grocery_net,42.479607,-73.388548
+772,"Rutherford, Homenick and Bergstrom",grocery_net,36.447298,-84.055071
+773,"Kerluke, Kertzmann and Wiza",misc_net,28.921811,-98.398810
+774,Donnelly PLC,misc_net,31.953944,-99.444726
+775,Spinka-Welch,grocery_net,43.130530,-71.508160
+776,Brown PLC,misc_net,38.058141,-81.702733
+777,Kunde-Sanford,misc_net,35.073330,-84.941022
+778,"Parisian, Schiller and Altenwerth",misc_net,39.735389,-90.308819
+779,Smitham-Boehm,grocery_net,38.857304,-104.840506
+780,Shields Inc,grocery_net,27.043501,-81.893520
+781,"Johnston, Nikolaus and Maggio",grocery_net,41.451477,-74.101991
+782,Smitham-Schiller,grocery_net,26.832757,-81.395836
+783,Hills-Olson,grocery_net,29.255530,-94.496141
+784,"Rippin, Kub and Mann",misc_net,35.918497,-89.763691
+785,Rempel PLC,grocery_net,40.650591,-73.493175
+786,Leannon-Nikolaus,travel,38.226566,-97.605991
+787,"Monahan, Hermann and Johns",travel,43.629357,-123.471361
+788,Block-Hauck,travel,35.959116,-106.589309
+789,"Hagenes, Hermann and Stroman",travel,32.083323,-89.247796
+790,Hermann-Gaylord,misc_pos,29.808938,-97.304682
+791,Mante Group,misc_net,33.551834,-80.418582
+792,Corwin-Gorczany,misc_net,44.403308,-71.366281
+793,McCullough Group,grocery_net,33.308279,-78.141697

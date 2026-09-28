@@ -1,0 +1,6 @@
+﻿1,HIGH_AMOUNT,Transaction amount exceeds threshold,30.00,50000.00
+2,VELOCITY_CHECK,Too many transactions in a short time window,40.00,3.00
+3,NEW_DEVICE,Transaction from an unrecognised device,20.00,0.00
+4,ODD_HOUR,Transaction between 00:00 and 05:00,20.00,0.00
+5,MULTI_ACCOUNT_DEVICE,Same device used across multiple accounts today,45.00,2.00
+6,RAPID_LOCATION_CHANGE,Different IP country within 30 minutes,50.00,0.00
