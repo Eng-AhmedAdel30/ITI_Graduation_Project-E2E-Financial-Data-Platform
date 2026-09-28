@@ -1,37 +1,48 @@
 # 06 · Power BI Dashboards
 
-Interactive dashboards built on semantic models over the Fabric Data Warehouse. All pages share a common dark FinTech theme and slicers (year, gender, and domain-specific filters).
+Interactive dashboards built on three semantic models over the **Fabric Data Warehouse** (`FinTech_DW`, galaxy schema). All reports share one dark FinTech theme, a KPI card row at the top of each page, and slicers for filtering.
 
-## Semantic Models
+| # | Dashboard | Pages | Fact tables | Audience |
+|---|-----------|-------|-------------|----------|
+| 1 | [User Login Analytics](./01-user-login-analytics) | 4 | `Fact_Login_Attempt` | Security and digital-channel teams |
+| 2 | [Transaction Analytics](./02-transaction-analytics) | 9 | `Fact_Transaction`, `Fact_Card_Attempt` | Branch managers, financial analysts |
+| 3 | [Loan Analytics](./03-loan-analytics) | 7 | `Fact_Loan`, `Fact_Loan_Repayment` | Loan officers, risk and collections teams |
 
-| Model | Main tables |
-|-------|------------|
-| User Login | `Fact_Login_Attempt`, `Dim_Customer`, `Dim_Date`, `Dim_Time` |
-| Transactions Analysis | `Fact_Transaction`, `Fact_Card_Attempt`, `Dim_Customer`, `Dim_Account`, `Dim_Card`, `Dim_Bank`, `Dim_Merchant`, `Dim_Location`, `Dim_Date` |
-| Loan Analysis | `Fact_Loan`, `Fact_Loan_Repayment`, `Dim_Customer`, `Dim_Account`, `Dim_Loan_Contract`, `Dim_Date` |
-
-## Dashboards
-
-### Customer Behavior: Login Analytics
-Total login attempts, customers, devices, and average logins per customer; logins by hour, month, and weekday; weekday vs. weekend and AM/PM split; logins by education, employment status, and employer.
-
-### Transaction Analytics
-Active customers, transaction count and total amount; amount by status and type (credit/debit); monthly trends; deposits vs. outflow and net liquidity by account type; breakdowns by job title, card type, gender, family status, education, and car/home ownership; income and liability analysis.
-
-### Loan Analytics
-Total loans, loan amount, customers, and average loan; application status (approved/pending/rejected) and contract status (fully paid/active/defaulted); overdue accounts, average days overdue, default rate, high-risk loans; risk heatmap and delinquent customers table; interest, paid amount, collection efficiency, and late-payment trends.
-
-## Suggested Folder Contents
+## Folder Structure
 
 ```
 06-powerbi-dashboards/
-├── pbix/            # .pbix files (consider Git LFS)
-├── screenshots/
-└── dax-measures.md  # Documented DAX measures
+├── README.md
+├── 01-user-login-analytics/
+│   ├── README.md
+│   ├── pbix/
+│   └── screenshots/
+├── 02-transaction-analytics/
+│   ├── README.md
+│   ├── pbix/
+│   └── screenshots/
+└── 03-loan-analytics/
+    ├── README.md
+    ├── pbix/
+    └── screenshots/
 ```
 
-## Setup
+## Shared Setup
 
-1. Open the `.pbix` in Power BI Desktop.
-2. Update the data source to your Fabric Warehouse SQL endpoint.
-3. Refresh and publish to your Fabric workspace.
+1. Open the `.pbix` file in **Power BI Desktop**.
+2. Go to **Transform data → Data source settings** and point to your Fabric Warehouse SQL endpoint (`FinTech_DW`).
+3. Click **Refresh**, then **Publish** to your Fabric workspace.
+4. Optionally schedule a refresh that runs after the Fabric pipeline finishes (the pipeline currently runs every 72 hours).
+
+> Do not commit credentials or workspace URLs. Large `.pbix` files may need Git LFS.
+
+## Shared Design Conventions
+
+- Dark navy theme with FinTech logo in the left panel
+- KPI cards across the top, then 2 to 3 visuals per page
+- Slicers on the left panel (varies by dashboard)
+- Star-schema relationships: single-direction, one-to-many from dimensions to facts
+
+## Dimensions Used Across Models
+
+`Dim_Customer`, `Dim_Account`, `Dim_Date`, `Dim_Time`, `Dim_Card`, `Dim_Bank`, `Dim_Merchant`, `Dim_Location`, `Dim_Loan_Contract`
